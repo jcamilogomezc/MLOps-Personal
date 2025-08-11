@@ -1,3 +1,6 @@
 docker build -f docker/Dockerfile -t penguins_image .
 docker run --name penguins_container -p 8000:8989 penguins_image
 docker rm -f penguins_container
+
+# Para revisar archivos en el contenedor
+docker run --name penguins_container -p 8000:8989 -it penguins_image bash

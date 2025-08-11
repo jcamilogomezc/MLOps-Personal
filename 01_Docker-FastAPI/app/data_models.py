@@ -10,7 +10,7 @@ class PenguinFeatures(BaseModel):
     sex: Literal['male', 'female']
 
 class PredictRequest(BaseModel):
-    model: str
+    model: Literal['logistic_regression','random_forest','svc']
     penguins: List[PenguinFeatures]
 
 class PredictResponse(BaseModel):
