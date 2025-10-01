@@ -1,6 +1,6 @@
 # MLOps-Personal
 Basic projects to learn about MLOps
-
+```mermaid
 flowchart TD
     A[INICIO] --> B[1) INICIALIZACIÓN<br> a) Fijar parámetros (α, β, ρ, m, Tmax)<br> b) Asignar τ₀ a todos los (i, j)<br> c) Lbest = ∞]
 
@@ -30,3 +30,4 @@ flowchart TD
     end
 
     H -- No --> I[3) FIN<br> Retornar Lbest y la ruta óptima asociada]
+```
